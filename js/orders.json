@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "resturante": "Heidis Bier Bar",
+        "product": [
+            "Corona Extra"
+        ],
+        "amount": 1,
+        "total": "210,21",
+        "valuta": "kr.",
+        "type": "kasse",
+        "logo": "https://www.heidisbierbar.dk/media/Heidis_logo_spacing-1.png",
+        "product_image": "https://forudbestilling.scandinavian-park.com/media/image/product/6476/lg/corona-extra-6x0355l-plus-pant.jpg"
+    },
+    {
+        "id": 2,
+        "resturante": "Buddy Holly, Sønderborg",
+        "product": [
+            "Turborg Classic"
+        ],
+        "amount": 1,
+        "total": "250",
+        "valuta": "kr.",
+        "type": "kasse",
+        "logo": "https://www.fjordavisen.nu/nonsec/NPIX/2018/1/buddy.jpg",
+        "product_image": "https://teltservice.dk/images/produktfotos/730-410-p.jpg"
+    },
+    {
+        "id": 3,
+        "resturante": "Fox and Hounds",
+        "product": [
+            "Odense Pilsner"
+        ],
+        "amount": 3,
+        "total": "90",
+        "valuta": "kr.",
+        "type": "dåser",
+        "logo": "https://www.foxsonderborg.dk/wp-content/uploads/2020/02/Asset-4.png",
+        "product_image": "https://albani.dk/wp-content/uploads/2017/09/albani-pilsner-daase.png"
+    }
+]

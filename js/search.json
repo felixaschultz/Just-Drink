@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "resturante": "Lola Club",
+        "logo": "https://lolaclub.dk/wp-content/uploads/2020/07/lola-color-compressed.svg",
+        "cover": "https://rentspace.dk/wp-content/uploads/lola-club-sønderborg-3.jpg",
+        "products": [
+            {
+                "id": 1,
+                "product_name": "Turborg Classic",
+                "price": "250 kr",
+                "image": "https://teltservice.dk/images/produktfotos/730-410-p.jpg",
+                "type": "kasse"
+            },
+            {
+                "id": 2,
+                "product_name": "Tequila",
+                "price": "70 kr",
+                "image": "https://y4b8u3x4.stackpathcdn.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/i/sierra_silver_70_cl_tequila.jpg",
+                "type": "glas"
+            }
+        ],
+        "address": "",
+        "distance": "2 km",
+        "zip": "6400"
+    },
+    {
+        "id": 2,
+        "resturante": "Fox and Hounds",
+        "logo": "https://www.foxsonderborg.dk/wp-content/uploads/2020/02/Asset-4.png",
+        "cover": "https://sua.dinnerbooking.eu/img/restaurants/2080/530x250/1551174759_972-2080-fox-and-hounds.jpg",
+        "products": [
+            {
+                "id": 1,
+                "product_name": "Tequila",
+                "price": "500 kr",
+                "image": "https://y4b8u3x4.stackpathcdn.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/i/sierra_silver_70_cl_tequila.jpg",
+                "type": "kasse"
+            }
+        ],
+        "address": "",
+        "distance": "2 km",
+        "zip": "6400"
+    },
+    {
+        "id": 3,
+        "resturante": "Buddy Holly, Sønderborg",
+        "logo": "https://www.fjordavisen.nu/nonsec/NPIX/2018/1/buddy.jpg",
+        "cover": "",
+        "products": [
+            {
+                "id": 1,
+                "product_name": "Tuborg",
+                "price": "250 kr",
+                "image": "https://teltservice.dk/images/produktfotos/730-410-p.jpg",
+                "type": "kasse"
+            }
+        ],
+        "address": "",
+        "distance": "2 km",
+        "zip": "6400"
+    },
+    {
+        "id": 4,
+        "resturante": "Heidis Bier Bar",
+        "logo": "https://www.heidisbierbar.dk/media/Heidis_logo_spacing-1.png",
+        "cover": "",
+        "products": [
+            {
+                "id": 1,
+                "product_name": "Tuborg",
+                "price": "250 kr",
+                "image": "https://teltservice.dk/images/produktfotos/730-410-p.jpg",
+                "type": "kasse"
+            }
+        ],
+        "address": "",
+        "distance": "2 km",
+        "zip": "6400"
+    }
+]

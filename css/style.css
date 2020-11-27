@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    pointer-events: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    overflow: hidden;
+}
+
+.logo{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.logo--main{
+    color: #990881;
+}
+
+main{
+    height: calc(100vh - 80px);
+}
+
+.roverview__logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.loader{
+    border: 5px solid #afafaf; /* Light grey */
+    border-top: 5px solid #1e5d86; /* Blue */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    animation: spin 1s linear infinite;
+    display: block;
+    margin: 30px auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+a{
+    color: #000;
+}

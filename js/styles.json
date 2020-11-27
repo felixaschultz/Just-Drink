@@ -1,0 +1,11 @@
+[
+    {
+        "style": "/css/style.css"   
+    },
+    {
+        "style": "/css/mobile-style.css"   
+    },
+    {
+        "style": "/components/navigation.css"
+    }
+]

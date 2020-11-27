@@ -1,0 +1,43 @@
+{
+    "name": "Just Drink",
+    "short_name": "Just Drink",
+    "start_url": "/?uts_mob=pwa_mobile",
+    "scope": "/",
+    "lang": "dk-DK",
+    "display": "standalone",
+    "background_color": "#E8100C",
+    "theme_color": "#E8100C",
+    "description": "Get your drinks delivered to you!",
+    "orientation": "portrait",
+    "icons": [{
+      "src": "/img/fav-icon/apple-icon-57x57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/fav-icon/apple-icon-60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/fav-icon/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/fav-icon/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/fav-icon/apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/fav-icon/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+    ]
+  }

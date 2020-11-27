@@ -1,0 +1,34 @@
+.search-container{
+  position: relative;
+}
+
+.search-container label{
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size: 11px;
+}
+
+.search-bar{
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid #707070;
+  padding: 20px 10px 10px 10px;
+  margin: 0;
+  width: 78%;
+}
+
+.search-btn {
+  width: 20%;
+  background: #8F0735;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+  padding: 15px;
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
+  position: relative;
+  top: -3px;
+  left: -5px;
+}

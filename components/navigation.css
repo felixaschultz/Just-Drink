@@ -1,0 +1,17 @@
+.navigation{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    background: #690081;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.navigation a{
+    padding: 15px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}

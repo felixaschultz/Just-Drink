@@ -2,4 +2,16 @@
     .hero-content{
         grid-template-columns: 1fr;
     }
+
+    .headline{
+        font-size: 35px;
+    }
+
+    .hero-contenttext{
+        padding: 100px 15px;
+    }
+
+    .overlay{
+        background: transparent;
+    }
 }

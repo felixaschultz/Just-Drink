@@ -329,9 +329,6 @@ window.addEventListener("load", function(){
                                                 var price = products[0].price;
 
                                                 overlay.innerHTML = '<article><header class="small-header"> <section class="close"><span class="back-icon"></span></section><section class="logo-container"><h2 class="logo logo--main logo--small">Just Drink</h2></section><section class="cart"></section></header><section class="product-order"><img src="'+image+'"><h2>'+name+'</h2><p>1 x '+type+' '+name+'</p><h2 class="product-orderprice">'+price+'</h2></section><section class="cta-container"><a class="cta" data-item="'+name+'?id='+ pid +'">Tilføj til kurv</a></section></article>';
-                                                document.querySelector(".close").addEventListener("click", function(){
-                                                    overlay.style.top = "-100%";
-                                                });
                                                 if(localStorage.getItem("cart")){
                                                     let cart_container = document.querySelectorAll(".cart");
                                                     let scart = JSON.parse(localStorage.getItem("cart"));
@@ -367,6 +364,10 @@ window.addEventListener("load", function(){
                                                         setTimeout(function(){document.querySelector(".cta").innerText = "Tilføj til kurv";},200);
                                                     });
                                                 }
+
+                                                document.querySelector(".close").addEventListener("click", function(){
+                                                    overlay.style.top = "-100%";
+                                                });
                                             }else{
                                                 overlay.innerText = "Loading...please wait!";
                                             }

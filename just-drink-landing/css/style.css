@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #990881;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(0, 0, 0, .7); */
+}
+
+/* Content */
+
+.hero, .big-image-2{
+    perspective: 1px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    overflow: hidden;
+    scroll-snap-stop: always;
+    scroll-snap-type: y mandatory;
+}
+
+.hero{
+    background: url("../images/AdobeStock_273837724.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.big-image-2{
+    background: url("../images/AdobeStock_272320477.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.big-image-3{
+    background: url("../images/just-drink-on-phone-promo.jpg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    background-color: #990881;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 100vh;
+}
+
+.big-image-4{
+    background: url("../images/AdobeStock_273663983.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    /* -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px); */
+    transform: translateZ(0);
+}
+
+.hero-contenttext{
+    /* background: linear-gradient(to left,  rgba(255,255,255,0) 0%,rgba(0,0,0,.5) 75%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.headline{
+    font-size: 50px;
+    word-break: break-all;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.hero-contentimage{
+    position: absolute;
+    right: 5px;
+    top: 80%;
+    width: 600px;
+}
+
+.hero-contentimage img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.parallax__layer--back img{
+    width: 100vw;
+    height: 100vh;
+    opacity: .85;
+    object-fit: cover;
+}
+
+.search-container{
+    position: relative;
+    width: 330px;
+}
+
+.search-container label{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 11px;
+    color: #707070;
+}
+
+.search-bar{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #707070;
+    padding: 20px 10px 10px 10px;
+    margin: 0;
+    width: 78%;
+}
+
+.search-btn {
+    width: 20%;
+    background: #8F0735;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    top: -3px;
+    left: -5px;
+}
+
+.promo-images-large{
+    width: 85%;
+}
+
+.promo-images-small{
+    width: 60%;
+}
+
+.promo-images-extrasmall{
+    width: 35%;
+}
+
+.bottom-whitespace{
+    padding-bottom: 40px;
+}
+
+.promo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* .hero-bgimage{
+    background: url("https://as2.ftcdn.net/jpg/02/73/83/77/500_F_273837724_rxwt9AmHNV2zout4XYiyL0Q5jQwgG9tx.jpg");
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    transform: scale(1.2);
+} */
+
+/* Overlay */
+.overlay{
+    background: linear-gradient(to left,  rgba(255,255,255,0) 0%,#990881a4 65%);
+}
+/* Highlight */
+.highlight{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* Icons */
+.icon{
+    width: 150px;
+    float: left;
+}
+
+/* Footer */
+.footer{
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
